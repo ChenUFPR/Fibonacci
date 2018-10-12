@@ -4,6 +4,8 @@ def Fibonacci(n):
 	while (n<0):
 		print("Só é possível calcular a sequência de Fibonacci com números positivos.")
 		n = int(input("Informe um número:"))
+	if n == 0:
+		print('0', end = '.')
 	while n >= 0:
 		a,i,b = 0,0,1
 		print("A sequêmcia de Fibonacci de {} é:".format(n, end=''))
