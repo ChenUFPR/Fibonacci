@@ -1,7 +1,7 @@
 # Fibonacci
 
 def Fibonacci(n):
-	while (n<=0):
+	while (n<0):
 		print("Só é possível calcular a sequência de Fibonacci com números positivos.")
 		n = int(input("Informe um número:"))
 	while n >= 0:
